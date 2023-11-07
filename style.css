@@ -211,7 +211,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  background: white;
+  /* background: white; */
   padding: 64px 24px 0px 24px;
   gap: 32.008px;
 }
