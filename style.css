@@ -241,6 +241,8 @@ footer {
   align-items: center;
   gap: 20px;
   padding-left: 24px;
+  padding-bottom: 40px;
+  
 }
 .icons img {
   width: 20px;
@@ -293,13 +295,14 @@ footer {
   footer{
     width: 696px;
     height: 143px;
+    padding-bottom: 50px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
   .sum{
     width: 366px;
-
+     
     padding: 0px 
   }
 }
@@ -390,5 +393,15 @@ line-height: 26px;
 }
 .fb:hover{
    cursor: pointer;
-   color: #FA7453;
+   filter: invert(67%) sepia(44%) saturate(4836%) hue-rotate(327deg) brightness(102%) contrast(96%);
 }
+.ins:hover{
+  cursor: pointer;
+  filter: invert(67%) sepia(44%) saturate(4836%) hue-rotate(327deg) brightness(102%) contrast(96%);
+}
+.tw:hover{
+  cursor: pointer;
+  filter: invert(67%) sepia(44%) saturate(4836%) hue-rotate(327deg) brightness(102%) contrast(96%);
+}
+
+
